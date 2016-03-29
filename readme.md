@@ -7,13 +7,21 @@
 #### 使用方法
 
 ```js
+//方法1
 neteaseAnalysis({
     modelid: "autobmw7xi",
     spst: 1
 })
 
+//方法2
 neteaseAnalysis({ 
     docid: "BJACD6SO00964LQ9"
+})
+
+//方法3 加入自定义参数 
+neteaseAnalysis({ 
+    docid: "BJACD6SO00964LQ9", 
+    other: "test"
 })
 
 ```
