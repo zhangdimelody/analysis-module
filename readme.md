@@ -4,12 +4,21 @@
 
 ### sps 统计
 
+#### Demo
+[demo1](http://f2e.developer.163.com/dizhang/analysis/)<br>
+[demo2](http://f2e.developer.163.com/dizhang/analysis/?videoid=123&w=9)
+
 #### 使用方法
 
 ```js
-neteaseAnalysis({spst: 1, modelid: "autobmw7xi"})
+neteaseAnalysis({
+    modelid: "autobmw7xi",
+    spst: 1
+})
 
-neteaseAnalysis({ docid: "jof9wer09qw0ejsadf"})
+neteaseAnalysis({ 
+    docid: "BJACD6SO00964LQ9"
+})
 
 ```
 
@@ -30,7 +39,7 @@ neteaseAnalysis({ docid: "jof9wer09qw0ejsadf"})
 * spsf  平台，value 值例如：newsapp/163/light
     - `默认`: 传 newsapp
 * spss  渠道，value 值例如：qq/wb/wx/yx
-    - `默认`: 传 useragent 匹配结果
+    - `默认`: 传 ua 匹配结果
 
 
 

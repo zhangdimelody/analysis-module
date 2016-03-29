@@ -59,9 +59,7 @@
       spsf = 'qq'
     }
 
-    docid = paramsObject['docid']
     vid = paramsObject['videoid'] 
-    sid = paramsObject['sid'] || paramsObject['id'] || ''
     spsw = paramsObject['w'] || 1
     spst = 0
     if(vid){
@@ -86,6 +84,7 @@
     var link = 'http://sps.163.com/article/' + queryStr
     console.log(link)
     neteaseTracker(false, link, '', 'sps' )
+    
   }
     
 
