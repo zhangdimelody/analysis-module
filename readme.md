@@ -8,6 +8,9 @@
 
 ```js
 neteaseAnalysis({spst: 1, modelid: "autobmw7xi"})
+
+neteaseAnalysis({ docid: "jof9wer09qw0ejsadf"})
+
 ```
 
 #### 参数说明
@@ -18,16 +21,16 @@ neteaseAnalysis({spst: 1, modelid: "autobmw7xi"})
     - spst=2 专题页
     - spst=3 图集页
     - spst=4 直播室
-    - **默认**: 传0，如果 url 参数有 videoid 则传 6
+    - `默认`: 传0，如果 url 参数有 videoid 则传 6
 * spsw  第几次分享 
     - spsw=0 特殊情况，网易内部产品分享
     - spsw=1 第一次分享
     - spsw=2 第二次分享
-    - **默认**: 传 url 参数中的 w, 没有则传1
+    - `默认`: 传 url 参数中的 w, 没有则传1
 * spsf  平台，value 值例如：newsapp/163/light
-    - **默认**: 传 newsapp
+    - `默认`: 传 newsapp
 * spss  渠道，value 值例如：qq/wb/wx/yx
-    - **默认**: 传 useragent 匹配结果
+    - `默认`: 传 useragent 匹配结果
 
 
 
