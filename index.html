@@ -4,10 +4,26 @@
 </head>
 <body>
   <p>
+    <p>
+      方式1：neteaseAnalysis({ modelid: "autobmw7xi", spst: 1})
+    </p>
     <button onclick=sendAnalysis()>点击一个动效专题页</button>
-    <button onclick=sendAnother()>点击一个普通文章页</button>
   </p> 
-  
+  <br>
+  <p>
+    <p>
+      方式2：neteaseAnalysis({ docid: "BJACD6SO00964LQ9" })
+    </p>
+    <button onclick=sendAnother()>点击一个普通文章页</button>
+  </p>
+  <br>
+  <p>
+    <p>
+      方式3：neteaseAnalysis({ docid: "BJACD6SO00964LQ9" , other: "test"})
+    </p>
+    <button onclick=sendTest()>需要加入自定义参数</button>
+  </p>
+  <br>
   <p>Console里可查看生成的link</p>
 
   <script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>
@@ -19,6 +35,9 @@
     }
     function sendAnother(){
       neteaseAnalysis({ docid: "BJACD6SO00964LQ9" })
+    }
+    function sendTest(){
+      neteaseAnalysis({ docid: "BJACD6SO00964LQ9", other: "test" })
     }
   </script>
 

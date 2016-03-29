@@ -1,3 +1,4 @@
+  
   function neteaseAnalysis(userOptions){
     var search, docid, spsw, spss, spsf, ua, referer, vid, spst, sid;
     ua = navigator.userAgent;

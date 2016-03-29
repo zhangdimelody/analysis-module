@@ -4,10 +4,6 @@
 
 ### sps 统计
 
-#### Demo
-[demo1](http://f2e.developer.163.com/dizhang/analysis/)<br>
-[demo2](http://f2e.developer.163.com/dizhang/analysis/?videoid=123&w=9)
-
 #### 使用方法
 
 ```js
@@ -41,5 +37,11 @@ neteaseAnalysis({
 * spss  渠道，value 值例如：qq/wb/wx/yx
     - `默认`: 传 ua 匹配结果
 
+#### 依赖
+`<script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>`
+
+#### Demo
+[demo1](http://f2e.developer.163.com/dizhang/analysis/)<br>
+[demo2](http://f2e.developer.163.com/dizhang/analysis/?videoid=123&w=9)
 
 
