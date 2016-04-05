@@ -38,6 +38,7 @@ neteaseAnalysis({
     - spst=6 视频
     - spst=7 视频列表
     - spst=8 问吧
+    - spst=9 多媒体播放器(webvr)
     - `默认`: 传0，如果 url 参数有 videoid 则传 6
 * spsw  第几次分享 
     - spsw=0 特殊情况，网易内部产品分享
