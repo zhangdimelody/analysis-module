@@ -1,7 +1,7 @@
 ### 统计
 
 -------------------------
-### 一、mapp 统计
+### 一、mapp 统计（统计整个页面）
 
 ```js
 <script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>
@@ -14,7 +14,7 @@ neteaseTracker();
 #### 依赖
 `<script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>`
 
-### 二、sps 统计
+### 二、sps 统计（统计文章页的回流）
 
 #### 使用方法
 
