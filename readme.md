@@ -3,6 +3,8 @@
 -------------------------
 ### 一、mapp 统计（统计整个页面）
 
+#### 使用方法
+
 ```js
 <script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>
 
