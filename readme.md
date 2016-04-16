@@ -1,12 +1,27 @@
 ### 统计
 
 -------------------------
+### 一、mapp 统计
 
-### sps 统计
+```js
+<script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>
+
+_ntes_nacc = "mapp";
+neteaseTracker();
+
+```
+
+#### 依赖
+`<script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>`
+
+### 二、sps 统计
 
 #### 使用方法
 
 ```js
+<script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>
+<script type="text/javascript" src="http://img1.cache.netease.com/utf8/3g/util/analysis.min.js"></script>
+
 //方法1
 neteaseAnalysis({
     modelid: "autobmw7xi",
