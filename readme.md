@@ -22,7 +22,7 @@ neteaseTracker();
 
 ```js
 <script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>
-<script type="text/javascript" src="http://img1.cache.netease.com/utf8/3g/util/analysis.min.js"></script>
+<script type="text/javascript" src="http://img4.cache.netease.com/utf8/3g/util/analysis.min.js"></script>
 
 //方法1
 neteaseAnalysis({
@@ -70,7 +70,7 @@ neteaseAnalysis({
 
 #### 依赖
 `<script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>`
-`<script type="text/javascript" src="http://img1.cache.netease.com/utf8/3g/util/analysis.min.js"></script>`
+`<script type="text/javascript" src="http://img4.cache.netease.com/utf8/3g/util/analysis.min.js"></script>`
 
 #### Demo
 [demo1](http://f2e.developer.163.com/dizhang/analysis/)<br>
