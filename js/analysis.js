@@ -68,7 +68,7 @@
     }
 
     var defaultOptions = {
-      spss: "newsapp",
+      spss: "native",
       spst: spst,
       spsw: spsw,
       spsf: spsf
