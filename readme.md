@@ -26,7 +26,7 @@ neteaseTracker();
 
 //方法1
 neteaseAnalysis({
-    modelid: "autobmw7xi",
+    modelid: "3g项目名",
     spst: 1
 })
 
