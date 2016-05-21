@@ -68,12 +68,12 @@
     }
 
     var defaultOptions = {
-      spss: "native",
+      spss: "newsapp",
       spst: spst,
       spsw: spsw,
       spsf: spsf
     }
-
+    defaultOptions.spss = (ua.match(/newsapp/gi))? "native" : "newsapp"
     
     var options = defaults(userOptions, defaultOptions);
     var queryStr = "?"

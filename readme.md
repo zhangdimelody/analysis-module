@@ -63,8 +63,8 @@ neteaseAnalysis({
     - spsw=1 第一次分享
     - spsw=2 第二次分享
     - `默认`: 传 url 参数中的 w, 没有则传1
-* spss  平台，value 值例如：native/163/light
-    - `默认`: 传 native
+* spss  平台，value 值例如：native/newsapp/163/light
+    - `默认`: 在客户端内传 native，否则传 newsapp
 * spsf  渠道，value 值例如：qq/wb/wx/yx
     - `默认`: 传 ua 匹配结果
 
