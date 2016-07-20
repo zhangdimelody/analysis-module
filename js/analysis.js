@@ -71,18 +71,22 @@
       spss: "newsapp",
       spst: spst,
       spsw: spsw,
-      spsf: spsf
+      spsf: spsf,
+      type: "article"
     }
     defaultOptions.spss = (ua.match(/newsapp/gi))? "native" : "newsapp"
     
     var options = defaults(userOptions, defaultOptions);
-    var queryStr = "?"
+    var queryStr = "?";
+
     for(var item in options){
-      queryStr = queryStr + item + "=" + options[item] + "&"
+      if(item != "type"){ 
+        queryStr = queryStr + item + "=" + options[item] + "&"
+      }
     }
     queryStr = queryStr.substr(0,queryStr.length - 1)
 
-    var link = 'http://sps.163.com/article/' + queryStr
+    var link = 'http://sps.163.com/'+ options.type +'/' + queryStr
     console.log(link)
     neteaseTracker(false, link, '', 'sps' )
     

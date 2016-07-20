@@ -32,8 +32,10 @@ neteaseAnalysis({
 
 //方法2
 neteaseAnalysis({ 
+    type: "func",
     docid: "BJACD6SO00964LQ9"
 })
+//输出统计link：http://sps.163.com/func/?docid=BJACD6SO00964LQ9&spss=newsapp&spst=0&spsw=1&spsf=qq
 
 //方法3 加入自定义参数 
 neteaseAnalysis({ 
@@ -67,6 +69,9 @@ neteaseAnalysis({
     - `默认`: 在客户端内传 native，否则传 newsapp
 * spsf  渠道，value 值例如：qq/wb/wx/yx
     - `默认`: 传 ua 匹配结果
+
+* type 统计类型，value 值例如：article/special/func
+    - `默认`: 传 article
 
 #### 依赖
 `<script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>`
