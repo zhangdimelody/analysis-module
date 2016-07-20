@@ -87,7 +87,7 @@
     queryStr = queryStr.substr(0,queryStr.length - 1)
 
     var link = 'http://sps.163.com/'+ options.type +'/' + queryStr
-    console.log(link)
+    // console.log(link)
     neteaseTracker(false, link, '', 'sps' )
     
   }

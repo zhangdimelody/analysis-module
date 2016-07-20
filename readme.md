@@ -40,7 +40,7 @@ neteaseAnalysis({
 //方法3 加入自定义参数 
 neteaseAnalysis({ 
     docid: "BJACD6SO00964LQ9", 
-    other: "test"
+    other: "test"  // key 值与 value 值可随意填写
 })
 
 ```
