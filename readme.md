@@ -71,7 +71,10 @@ neteaseAnalysis({
     - `默认`: 传 ua 匹配结果
 
 * type 统计类型，value 值例如：article/special/func
-    - `默认`: 传 article
+    - `默认`: 传 article 
+        + article 多用于统计文章页
+        + special 多用于统计活动页面
+        + func 多用于统计点击操作等
 
 #### 依赖
 `<script type="text/javascript" src="http://analytics.163.com/ntes.js"></script>`

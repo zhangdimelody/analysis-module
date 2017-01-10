@@ -13,6 +13,8 @@
         for (;i<paraNames.length;i++) {
           //get rid of #
           arr = paraNames[i].split('=');
+          //容错 ?ww 类型
+          if(arr.length == 1) continue;
           if(i===paraNames.length-1){
             var sIndex = arr[1].indexOf('#');
             if(sIndex!==-1){
